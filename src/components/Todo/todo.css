@@ -1,0 +1,28 @@
+.edit__task {
+  background-color: transparent;
+  /* background-color: red; */
+  border: none;
+  outline: none;
+  width: 23rem;
+}
+
+.todo__left--icons {
+  display: flex;
+  margin-inline: auto;
+  margin-right: 0;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .edit__task {
+    width: 15rem;
+  }
+}
+
+.complete {
+  font-style: italic;
+  color: #cdcdcd;
+  text-decoration: line-through;
+  width: 82%;
+  padding-left: 5px;
+}
